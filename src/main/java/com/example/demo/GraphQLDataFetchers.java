@@ -28,8 +28,9 @@ public class GraphQLDataFetchers {
 
     public DataFetcher getEmployeeByIdDataFetcher() {
         return dataFetchingEnvironment -> {
-            String bookId = dataFetchingEnvironment.getArgument("id");
-            return books
+            // D
+            String employeeID = dataFetchingEnvironment.getArgument("id");
+            return employee
                     .stream()
                     // C
                     .filter(book -> book.get("id").equals(bookId))
