@@ -21,7 +21,7 @@ public class GraphQLDataFetchers {
                     "messages", "Almost there!"),
             // B
             ImmutableMap.of("id", "employee-102",
-                    "name", "Interview with the vampire",
+                    "name", "Leroy Syndrome",
                     "messages", "Hello")
     );
 
