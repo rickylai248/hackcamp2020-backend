@@ -16,14 +16,13 @@ public class GraphQLDataFetchers {
                     "name", "Jane Doe",
                     "messages", "You're doing great"),
             // A
-            ImmutableMap.of("id", "book-2",
+            ImmutableMap.of("id", "employee-2",
                     "name", "Moby Dick",
-                    "pageCount", "635"),
+                    "messages", "Almost there!"),
             // B
             ImmutableMap.of("id", "employee-102",
                     "name", "Interview with the vampire",
-                    "pageCount", "371",
-                    "authorId", "author-3")
+                    "messages", "Hello")
     );
 
 
