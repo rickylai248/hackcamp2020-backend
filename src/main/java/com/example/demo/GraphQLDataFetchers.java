@@ -30,7 +30,7 @@ public class GraphQLDataFetchers {
         return dataFetchingEnvironment -> {
             // D
             String employeeID = dataFetchingEnvironment.getArgument("id");
-            return employee
+            return employees
                     .stream()
                     // C
                     .filter(employee -> employee.get("id").equals(employeeID))
