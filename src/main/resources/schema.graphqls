@@ -1,0 +1,9 @@
+type Query {
+    employeeById(id : ID): Employee
+}
+
+type Employee {
+    id: ID!
+    name: String
+    messages: [String]
+}
