@@ -14,10 +14,12 @@ public class GraphQLDataFetchers {
     private static List<Map<String, String>> employees = Arrays.asList(
             ImmutableMap.of("id", "employee-100",
                     "name", "Jane Doe",
-                    "messages", ["You're doing great"])
+                    "messages", "You're doing great"),
+            // A
             ImmutableMap.of("id", "book-2",
                     "name", "Moby Dick",
-                    "pageCount", "635", ),
+                    "pageCount", "635"),
+            // B
             ImmutableMap.of("id", "employee-102",
                     "name", "Interview with the vampire",
                     "pageCount", "371",
@@ -30,6 +32,7 @@ public class GraphQLDataFetchers {
             String bookId = dataFetchingEnvironment.getArgument("id");
             return books
                     .stream()
+                    // C
                     .filter(book -> book.get("id").equals(bookId))
                     .findFirst()
                     .orElse(null);
