@@ -33,7 +33,7 @@ public class GraphQLDataFetchers {
             return employee
                     .stream()
                     // C
-                    .filter(book -> book.get("id").equals(bookId))
+                    .filter(employee -> employee.get("id").equals(employeeID))
                     .findFirst()
                     .orElse(null);
         };
