@@ -1,0 +1,2 @@
+# hackcamp2020-backend
+HappyHippo - Backend HappyHippo, engaging and simplistic by design, encourages its users to conduct periodic check-ins into the app. These check-ins aim to give the user attention on how they are feeling, uplifting them to feel happier if they are feeling down, and can de-stress themselves through catered, guided breathing and yoga exercises. Moreover, this application aims to promote workplace wellness by allowing users to share positive messages to other coworkers.
